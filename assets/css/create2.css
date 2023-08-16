@@ -1,0 +1,41 @@
+.fa-plus-circle, .fa-key, .add, .label{
+    font-size: 18px;
+}
+
+.input-group-text{
+    width: 15%;
+}
+
+.custom-btn{
+    border-color: white !important;
+    background: rgba(0.0, 0.0, 0.0, 0.0) !important;
+}
+
+/* .border-group-1{
+    border-radius: 10px 0 0 0 !important;
+    border-bottom: none !important;
+}
+
+.border-group-2{
+    border-radius: 0 10px 0 0  !important;
+    border-bottom: none !important;
+}
+
+.border-group-3{
+    border-radius: 0 0 0 10px !important;
+    border-top: none !important;
+}
+
+.border-group-4{
+    border-radius: 0 0 10px 0 !important;
+    border-top: none !important;
+} */
+
+.form-control, .input-group-text{
+    background-color: rgba(216, 208, 208, 0.363) !important;
+    backdrop-filter: blur(3px);
+}
+
+.label, .font{
+    color: white !important;
+}

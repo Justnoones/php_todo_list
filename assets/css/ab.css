@@ -1,0 +1,117 @@
+/* banner */
+
+.patent{
+    position: relative;
+}
+
+.child-1,.child-2{
+    position: absolute;
+}
+
+.child-1{
+    top: 50px;
+    left: 50px;
+    font-weight: bold;
+    animation-name: toptobottom;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+}
+
+.child-2{
+    text-indent: 70px;
+    text-align: justify;
+    bottom: 0;
+    left: 50px;
+    font-weight: lighter;
+    animation-name: bottomtoup;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+    flex-wrap: nowrap;
+}
+
+img.heart{
+    margin-top: 50px;
+}
+
+@keyframes toptobottom{
+    from{
+        top: 0;
+        opacity: 0;
+    }
+
+    to{
+        top:50px;
+        opacity: 1;
+    }
+}
+
+@keyframes bottomtoup{
+    from{
+        bottom: -140px;
+        opacity: 0;
+    }
+
+    to{
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+.login{
+    width: 900px;
+    height: 500px;
+    border: 2px dashed white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lab{
+    width: 28%;
+}
+
+.form-label{
+    font-size: 20px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.form-label:hover{
+    color: white !important;
+}
+
+.form-input{
+    width: 66%;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    background: transparent;
+    font-size: 20px;
+}
+.form-input:focus{
+    outline: none;
+    border-bottom: 2px solid #1292c4;
+}
+
+@media (max-width: 768px){
+    .lab{
+        width: 100%;
+    }
+    .form-input{
+        width: 93%;
+    }
+}
+
+.btn.btn-outline-light{
+    font-size: 22px;
+}
+
+.hr{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.bor{
+    border-bottom: 2px solid rgba(136, 129, 129, 0.5);
+}
+
+.btn.btn-outline-primary{
+    font-size: 18px;
+}

@@ -1,0 +1,21 @@
+.rgmain{
+    background: transparent !important;
+}
+
+.form-control, .input-group-text, .form-select{
+    background: rgba(213, 207, 207, 0.16) !important;
+}
+
+.custom-btn{
+    border-color: white !important;
+    background: rgba(0.0, 0.0, 0.0, 0.0) !important;
+}
+
+.form-control::placeholder,.form-select::placeholder{
+    color: rgba(255, 255, 255, 0.635) !important;
+}
+
+option{
+    color: rgba(255, 255, 255, 0.635) !important;
+    background-color: rgba(32, 19, 19, 0.747);
+}

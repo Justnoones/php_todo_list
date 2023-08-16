@@ -1,0 +1,12 @@
+.error {
+    border-color: red!important;
+}
+
+.errorLabel {
+    border-color: red!important;
+    color: red !important;
+}
+
+.error::placeholder {
+    color: red !important;
+}

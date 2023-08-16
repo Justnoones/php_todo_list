@@ -1,0 +1,53 @@
+.parent{
+    background-color: rgba(221, 230, 218, 0.352);
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+}
+
+.page-link{
+    background-color: rgba(221, 230, 218, 0.352) !important;
+    color: white !important;
+    padding: 5px 13px !important;
+    font-size: 18px !important;
+}
+
+.child-1{
+    flex-grow: 90000000000000000000000 !important;
+}
+
+.child-2,.child-3, .child-4, .child-7, .child-9 {
+    flex-grow: 1 !important;
+}
+
+.child-3:hover{
+    color: rgb(42, 42, 183);
+}
+
+.child-4:hover{
+    color: red;
+}
+
+.child-7:hover {
+    color: rgb(78, 212, 33);
+}
+
+.child-9:hover{
+    color: #f5e15f;
+}
+
+.child-4, .child-3, .child-7, .child-9{
+    transition: all 0.5s;
+}
+
+.child-1, .child-2, .child-3, .child-4, .child-7, .child-9{
+    padding: 10px 15px;
+    flex-grow: 1;
+    border-left: 2px solid rgba(0, 0, 0, 0.71);
+    color: white;
+}
+
+.child-1 {
+    border: none;
+}
